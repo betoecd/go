@@ -1,5 +1,5 @@
-import "fmt"
+package main
 
 func main() {
-	fmt.Println("Hello, 世界")
+	print("Code.education 岩石!\n")
 }
