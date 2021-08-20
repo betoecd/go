@@ -19,7 +19,7 @@ jobs:
         go-version: 1.17
 
     - name: Build
-      run: go build -v math.go
+      run: go build -v math/math.go
 
     - name: Test
-      run: go test -v math_test.go
+      run: go test -v math/math_test.go
