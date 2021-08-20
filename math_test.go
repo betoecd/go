@@ -1,3 +1,0 @@
-func TestSoma(t *testing) {
-
-}
