@@ -1,6 +1,8 @@
 package math
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestSoma(t *testing.T) {
 
