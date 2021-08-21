@@ -47,6 +47,6 @@ jobs:
         # push: true, executa o push para o dockerhub
         push: true
         # tags: user/app:latest
-        tags: betoecd/go:latest
+        tags: bitsevil/go:latest
         # build-args:
         #   arg1=
