@@ -8,12 +8,13 @@ on:
 
 jobs:
 
-  strategy:
-    matrix:
-      go: [ 1.16, 1.17 ]
-
   build:
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        go: [ 1.16, 1.17 ]
+
     steps:
     - uses: actions/checkout@v2
 
